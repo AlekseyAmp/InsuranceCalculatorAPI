@@ -1,0 +1,219 @@
+{
+    "2023-01-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.03"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.015"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.02"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.015"
+      }
+    ],
+    "2023-02-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.04"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.02"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.025"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.02"
+      }
+    ],
+    "2023-03-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.035"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.025"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.03"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.025"
+      }
+    ],
+    "2023-04-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.03"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.03"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.035"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.03"
+      }
+    ],
+    "2023-05-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.025"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.035"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.04"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.035"
+      }
+    ],
+    "2023-06-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.02"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.04"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.045"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.04"
+      }
+    ],
+    "2023-07-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.025"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.035"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.04"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.035"
+      }
+    ],
+    "2023-08-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.03"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.03"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.035"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.03"
+      }
+    ],
+    "2023-09-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.035"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.025"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.03"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.025"
+      }
+    ],
+    "2023-10-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.04"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.02"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.025"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.02"
+      }
+    ],
+    "2023-11-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.045"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.015"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.02"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.015"
+      }
+    ],
+    "2023-12-01": [
+      {
+        "cargo_type": "Electronics",
+        "rate": "0.05"
+      },
+      {
+        "cargo_type": "Furniture",
+        "rate": "0.01"
+      },
+      {
+        "cargo_type": "Chemicals",
+        "rate": "0.015"
+      },
+      {
+        "cargo_type": "Other",
+        "rate": "0.01"
+      }
+    ]
+  }
+  
