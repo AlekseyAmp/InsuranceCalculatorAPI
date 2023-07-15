@@ -87,6 +87,19 @@ async def test_calculate_insurance_zero_declared_value(client: AsyncClient):
     assert response.json()["detail"] == "One or more field(s) is empty"
 
 
+# # Test calculate_insurance with declared value equal to zero
+@pytest.mark.asyncio
+async def test_calculate_insurance_zero_empty_cargo_type(client: AsyncClient):
+    data = {
+        "declared_value": 501,
+        "cargo_type": ""
+    }
+    response = await client.post("/api/insurance/calculate", json=data)
+
+    assert response.status_code == 400
+    assert response.json()["detail"] == "One or more field(s) is empty"
+
+
 # # Test calculate_insurance with non-existent cargo type
 @pytest.mark.asyncio
 async def test_calculate_insurance_invalid_cargo_type(client: AsyncClient):
