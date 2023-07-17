@@ -13,7 +13,7 @@
 
 - Обновить тарифы в базе данных можно, выполнив запрос `PATCH /rates/update`.
 
-- Конечная точка `insurance/calculate` используется для расчета стоимости страховки. Для этого в качестве параметров запроса необходимо указать тип груза и заявленную стоимость. Стоимость страховки будет округлена до ближайшей тысячи. В тестах были рассмотрены запросы на страхование.
+- Конечная точка `insurance/calculate` используется для расчета стоимости страховки. Для этого в качестве параметров запроса необходимо указать тип груза и заявленную стоимость. Стоимость страховки будет округлена до тысячных (0,001). В тестах были рассмотрены запросы на страхование.
 
 ---
 
@@ -78,7 +78,7 @@ The project includes a JSON file with up-to-date rates located in the `src` fold
 
 - You can update the rates in the database by sending a `PATCH /rates/update` endpoint.
 
-- Endpoint `insurance/calculate` is used to calculate the insurance price. To do this, you need to provide the cargo type and the declared cost as request parameters. The insurance cost will be rounded to the nearest thousand. Request for insurance were covered by the tests.
+- Endpoint `insurance/calculate` is used to calculate the insurance price. To do this, you need to provide the cargo type and the declared cost as request parameters. The insurance cost will be rounded to the thousand (0,001). Request for insurance were covered by the tests.
 
 ---
 
