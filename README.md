@@ -21,7 +21,7 @@
 
 1. Клонируем репозиторий:
 
-``bash
+```bash
 git clone https://github.com/AlekseyAmp/InsuranceCalculatorAPI
 ```
 
@@ -29,19 +29,19 @@ git clone https://github.com/AlekseyAmp/InsuranceCalculatorAPI
 
 3. Соберите образ Docker:
 
-``bash
+```bash
 docker build . -t insurance_calculator_app:latest
 ```
 
 4. Соберите контейнеры Docker:
 
-```
+```bash
 docker-compose build
 ```
 
 5. Запустите контейнеры Docker:
 
-```
+```bash
 docker-compose up
 ```
 
