@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:14.8
+    restart: always
+    ports:
+      - 5433:5432
+    env_file:
+      - .env
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+
+  app:
+    build:
+      context: .
+    env_file:
+      - .env
+    container_name: insurance_calculator_app
+    ports:
+      - 9999:8000
+    depends_on:
+      - db
